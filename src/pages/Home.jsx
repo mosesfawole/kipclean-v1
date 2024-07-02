@@ -13,7 +13,13 @@ const Home = () => {
       <Header />
       <ChooseUs />
       <CleaningServices />
-      <div className="w-full text-center mt-20 bg-[#2F2F2F] text-white py-14">
+      <div className="md:hidden ">
+        <Partners />
+      </div>
+      <div className="md:hidden">
+        <Testimonial />
+      </div>
+      <div className="w-full text-center mt-20 bg-[#FFF4EC] md:bg-[#2F2F2F] md:text-white py-14">
         <h1 className=" text-xl md:text-4xl font-bold">
           Do you need any of our services?
         </h1>
@@ -29,8 +35,11 @@ const Home = () => {
           Book a service
         </button>
       </div>
-      <Testimonial />
-      <Partners />
+
+      <div className="hidden md:flex">
+        <Partners />
+        <Testimonial />
+      </div>
       <Faq />
       <Statistics />
     </div>

@@ -64,6 +64,9 @@ const Testimonial = () => {
   return (
     <div className="relative flex flex-col items-center mt-20">
       <h1 className="text-4xl font-medium text-center">Testimonials</h1>
+      <p className="text-[16px] mt-2 md:hidden">
+        What our customers are saying
+      </p>
       <div className="relative w-full mt-7 overflow-hidden">
         <div
           className="flex gap-4 transition-transform duration-300  w-full md:w-[55rem] ease-in-out"
@@ -71,7 +74,7 @@ const Testimonial = () => {
         >
           {testimonials.map((testimony, index) => (
             <div
-              className="flex-shrink-0 w-full  flex  flex-col md:flex-row items-left md:items-center rounded-3xl overflow-hidden gap-4 md:gap-12 bg-[#121212] p-4 md:p-12"
+              className="flex-shrink-0 w-full  flex  flex-col md:flex-row items-left md:items-center rounded-xl md:rounded-3xl overflow-hidden gap-4 md:gap-12  md:bg-[#121212] p-4 md:p-12  border border-[#CC5500] md:border-none"
               key={index}
             >
               <div className="w-[40%] ">
@@ -83,7 +86,7 @@ const Testimonial = () => {
                   />
                 </div>
               </div>
-              <div className="w-full text-left text-white">
+              <div className="w-full text-left  text-[#595F66] md:text-white">
                 <h1 className="text-sm sm:text-base font-semibold md:text-lg">
                   {testimony.message}
                 </h1>

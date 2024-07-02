@@ -1,12 +1,12 @@
 const ChooseUs = () => {
   return (
     <>
-      <div className="mt-[7rem]">
-        <div className="px-6 py-4 text-center bg-[#FFF4EC]">
-          <h1 className="text-xl sm:text-4xl font-bold text-center">
+      <div className="mt-[7rem]  ">
+        <div className="px-6 py-8 mb-14 text-center bg-[#FFF4EC]">
+          <h1 className="text-xl mb-2 sm:text-4xl font-bold text-center">
             Why Choose Us?
           </h1>
-          <p className="pt-4 text-sm sm:text-base sm:w-[60%] text-center mx-auto">
+          <p className="pt-4 text-xs md:text-sm sm:text-base  text-center mx-auto">
             Kip-Clean Cleaning and Plumbing Service has established itself as a
             beacon of reliability and excellence in the industry. Through a
             commitment to unparalleled service and customer satisfaction,
@@ -15,10 +15,10 @@ const ChooseUs = () => {
         </div>
         {/* Grid Section */}
         <div className="grid grid-cols-1 gap-7 mx-4 md:mx-[5rem] lg:grid-cols-2 lg:grid-rows-2 mt-7 h-[45rem] text-white">
-          <div className="relative w-full h-full sm:h-[20rem] lg:h-full lg:row-span-1 bg-img3 bg-cover bg-center rounded-lg md:rounded-[2.5rem] shadow-black/50 shadow-xl p-4 sm:p-8">
+          <div className=" relative w-full h-full sm:h-[20rem] lg:h-full lg:row-span-1 bg-img3 bg-cover bg-center rounded-lg md:rounded-[2.5rem] shadow-[#007FFF]/ shadow-xl p-4 sm:p-8">
             <div className="w-full h-full sm:h-[20rem] lg:h-full rounded-lg md:rounded-[2.5rem] bg-black/60 absolute top-0 left-0"></div>
             <div className="flex flex-col justify-between relative h-full">
-              <div>
+              <div className="">
                 <img
                   className="w-[2rem] md:w-[4rem]"
                   src="/Vector1.png"

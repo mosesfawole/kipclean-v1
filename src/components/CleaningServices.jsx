@@ -46,12 +46,12 @@ const CleaningServices = () => {
 
   const isMobile = !window.matchMedia("(min-width: 600px)").matches;
   return (
-    <div className="flex flex-col items-center gap-8 sm:mt-[20rem] lg:mt-20">
+    <div className="flex flex-col items-center gap-8  sm:mt-[25rem] lg:mt-20">
       <div className="flex flex-col items-center mx-8 mt-16 text-center">
         <h1 className="text-4xl font-semibold ">
           Cleaning And Plumbing Services
         </h1>
-        <p className="text-sm font-medium max-w-[40rem] mt-8">
+        <p className="text-sm text-center font-medium max-w-[40rem] mt-8">
           We are your local home cleaning and plumbing professionals, committed
           to thorough, reliable service. All employees are background checked
           and insured, so you can have peace of mind.
@@ -88,7 +88,7 @@ const CleaningServices = () => {
       {isMobile && !showAll && (
         <div>
           <button
-            className=" bg-orange rounded-3xl px-2 py-2 text-white"
+            className=" bg-orange rounded-3xl px-3 py-3 text-white"
             onClick={() => setShowAll(true)}
           >
             View all services
