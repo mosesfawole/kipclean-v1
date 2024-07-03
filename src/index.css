@@ -20,7 +20,7 @@
 @font-face {
   font-family: "Neue Montreal";
   src: url("./fonts\Neue Montreal\NeueMontreal-Light.otf");
-  font-weight: 400;
+  font-weight: lighter;
   font-style: normal;
 }
 @font-face {

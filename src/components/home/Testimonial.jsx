@@ -62,19 +62,19 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="relative flex flex-col items-center mt-20">
+    <div className="relative flex flex-col items-center mt-20 md:mt-40">
       <h1 className="text-4xl font-medium text-center">Testimonials</h1>
       <p className="text-[16px] mt-2 md:hidden">
         What our customers are saying
       </p>
-      <div className="relative w-full mt-7 overflow-hidden">
+      <div className="relative w-full mt-7 overflow-hidden px-8">
         <div
-          className="flex gap-4 transition-transform duration-300  w-full md:w-[55rem] ease-in-out"
+          className="flex gap transition-transform duration-300  w-full md:w-[55rem] ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {testimonials.map((testimony, index) => (
             <div
-              className="flex-shrink-0 w-full  flex  flex-col md:flex-row items-left md:items-center rounded-xl md:rounded-3xl overflow-hidden gap-4 md:gap-12  md:bg-[#121212] p-4 md:p-12  border border-[#CC5500] md:border-none"
+              className="flex-shrink-0 w-full  flex  flex-col md:flex-row items-left md:items-center rounded-xl md:rounded-3xl overflow-hidden gap-4 md:gap-12  md:bg-[#2F2F2F] p-4 md:p-12  border border-[#CC5500] md:border-none "
               key={index}
             >
               <div className="w-[40%] ">
@@ -86,12 +86,12 @@ const Testimonial = () => {
                   />
                 </div>
               </div>
-              <div className="w-full text-left  text-[#595F66] md:text-white">
-                <h1 className="text-sm sm:text-base font-semibold md:text-lg">
+              <div className="w-full text-left  text-[#595F66] font-sans md:text-white">
+                <h1 className="text-sm sm:text-sm font-normal md:text-lg">
                   {testimony.message}
                 </h1>
-                <p className="pb-1 mt-2 font-extrabold">{testimony.name}</p>
-                <p className="text-white ">{testimony.username}</p>
+                <p className="pb-1 mt-2 md:mt-8 font-bold">{testimony.name}</p>
+                <p className=" ">{testimony.username}</p>
               </div>
             </div>
           ))}

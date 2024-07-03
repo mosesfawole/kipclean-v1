@@ -20,25 +20,24 @@ const Home = () => {
         <Testimonial />
       </div>
       <div className="w-full text-center mt-20 bg-[#FFF4EC] md:bg-[#2F2F2F] md:text-white py-14">
-        <h1 className=" text-xl md:text-4xl font-bold">
+        <h1 className=" text-xl md:text-[52px] font-bold">
           Do you need any of our services?
         </h1>
-        <p className="mt-7 text-center text-lg font-medium">
+        <p className="mt-7 text-sm text-center md:text-xl  font-['Poppins']">
           Kip-clean Cleaning and plumbing is your one-stop for all your
-          household needs.
-        </p>
-        <p className="text-lg font-medium">
+          household needs. <br />
           From fixing a leaky faucet to cleaning your carpets, we've got you
           covered.
         </p>
+        <p className="text-lg font-medium"></p>
         <button className="mt-8 border-[1.5px] border-[#CC5500]  rounded-full p-4 px-8 font-medium text-lg">
           Book a service
         </button>
       </div>
 
-      <div className="hidden md:flex">
-        <Partners />
+      <div className="hidden md:flex flex-col">
         <Testimonial />
+        <Partners />
       </div>
       <Faq />
       <Statistics />

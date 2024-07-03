@@ -50,7 +50,7 @@ const Faqs = () => {
 
   return (
     <div>
-      <div className="mt-12 font-bold text-md">
+      <div className="mt-12 font-normal font-['Poppins'] text-base md:text-xl">
         {questions.map((question, index) => (
           <div key={index}>
             <div className="flex gap-12">
