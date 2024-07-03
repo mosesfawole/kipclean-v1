@@ -16,7 +16,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className="flex md:items-center  justify-between px-8 sm:px-[4rem] py-4 max-w-[1440px] mx-auto">
+    <div className="flex md:items-center  justify-between px-8  py-4 max-w-[1440px] mx-auto">
       <div className="block md:flex mx-auto mb-10 md:mb-0 md:mx-0">
         <Link to="/">
           <img src="/logo.png" alt="" className="md:w-12 md:h-12 " />
@@ -80,8 +80,8 @@ const Nav = () => {
             onClick={() => setMenuOpen(false)}
           />
         ) : (
-          <MdMenu
-            size={30}
+          <img
+            src="/menu.svg"
             className="cursor-pointer"
             onClick={() => setMenuOpen(true)}
           />
