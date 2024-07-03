@@ -10,7 +10,6 @@
     transform: translateX(-50%);
   }
 }
-
 @font-face {
   font-family: "Neue Montreal";
   src: url("./fonts\Neue Montreal\NeueMontreal-Regular.otf");
@@ -20,7 +19,7 @@
 @font-face {
   font-family: "Neue Montreal";
   src: url("./fonts\Neue Montreal\NeueMontreal-Light.otf");
-  font-weight: lighter;
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
