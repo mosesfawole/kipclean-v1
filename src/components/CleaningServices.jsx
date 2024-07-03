@@ -61,7 +61,7 @@ const CleaningServices = () => {
         {slicedServices.map((service, index) => (
           <div
             key={index}
-            className=" bg-[#fff4ec] w-auto sm:w-auto md:w-auto rounded-2xl px-10 py-10 "
+            className=" bg-[#fff4ec] w-auto sm:w-auto md:w-auto rounded-2xl px-10 py-10 md:px-14 "
           >
             <div className="flex justify-center items-center w-16 h-16 border-2   border-[#CC5500] rounded-lg">
               <img
@@ -70,8 +70,12 @@ const CleaningServices = () => {
                 className="m-auto max-w-full max-h-full object-contain "
               />
             </div>
-            <h1 className="pt-4 font-semibold ">{service.heading}</h1>
-            <p className="pt-4 text-[12px] sm:text-base ">{service.details}</p>
+            <h1 className="pt-4 text-xl md:text-2xl font-medium ">
+              {service.heading}
+            </h1>
+            <p className="pt-4 text-xs  md:text-sm font-normal ">
+              {service.details}
+            </p>
             <div className="flex items-center  mt-4">
               <Link className="flex gap-2 " to="/Services">
                 <p className=" text-[#3799EF] ">Learn More </p>
