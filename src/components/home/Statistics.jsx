@@ -16,9 +16,9 @@ const Statistics = () => {
       <p className="text-center p-4">
         Don't take our words for it, view our numbers below
       </p>
-      <div className="w-full bg-secondary mt-8">
+      <div className=" bg-inherit  md:bg-secondary mt-8 ">
         {" "}
-        <div className="grid w-full grid-cols-1 gap-7 py-8 px-[4rem] md:px-[6rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid  grid-cols-1 gap-10 py-8 px-[4rem] md:px-[6rem] sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  ">
           {stats.map((stat, index) => (
             <NumberCard
               key={index}
@@ -39,7 +39,7 @@ const NumberCard = ({ rating, text, inView }) => {
   const suffix = rating.replace(/[0-9]/g, ""); // Extract non-numeric part
 
   return (
-    <div className="flex flex-col items-center px-2 py-14 text-center border border-orange rounded-2xl">
+    <div className="flex flex-col   items-center px-2 py-14 text-center border-[1.5px] border-[#CC5500] rounded-[40px] md:rounded-2xl  w-[202px] md:w-full  ">
       <h2 className="text-2xl font-bold">
         {count}
         {suffix}

@@ -9,7 +9,7 @@ import Testimonial from "../components/home/Testimonial";
 
 const Home = () => {
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div className=" mx-auto">
       <Header />
       <ChooseUs />
       <CleaningServices />

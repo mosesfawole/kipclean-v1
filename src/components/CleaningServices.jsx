@@ -48,10 +48,10 @@ const CleaningServices = () => {
   return (
     <div className="flex flex-col items-center gap-8  sm:mt-[25rem] lg:mt-20">
       <div className="flex flex-col items-center mx-8 mt-16 text-center">
-        <h1 className="text-4xl font-semibold ">
+        <h1 className="text-4xl md:text-[52px] font-semibold ">
           Cleaning And Plumbing Services
         </h1>
-        <p className="text-sm text-center font-medium max-w-[40rem] mt-8">
+        <p className="text-[#2F2F2F] text-sm md:text-xl text-center font-medium  mt-8 md:px-[20rem]">
           We are your local home cleaning and plumbing professionals, committed
           to thorough, reliable service. All employees are background checked
           and insured, so you can have peace of mind.

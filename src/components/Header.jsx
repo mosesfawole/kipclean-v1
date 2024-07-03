@@ -38,7 +38,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative ">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-center bg-no-repeat bg-cover sm:block"
@@ -60,11 +60,11 @@ const Header = () => {
           <IoIosArrowRoundBack size={30} color="#cc5500" />
         </div>
         <div className="w-full md:w-[45rem] text-center flex flex-col items-center pt-8">
-          <h1 className="text-2xl font-bold text-center text-white md:text-4xl ">
+          <h1 className="text-2xl font-bold text-center text-white md:text-5xl ">
             We provide top-notch
             <span className="block ">cleaning and plumbing services</span>
           </h1>
-          <p className="mt-8 w-full sm:w-[40rem] text-center  text-white font-normal leading-relaxed md:leading-relaxed text-sm sm:text-base">
+          <p className="mt-8 w-full  text-center  text-[#ffffffe0]  leading-relaxed md:leading-relaxed text-sm sm:text-base md:text-lg">
             Kip-clean Cleaning and plumbing is your one-stop shop for all your
             household needs. From fixing a leaky faucet to cleaning your
             carpets, we've got you covered.
