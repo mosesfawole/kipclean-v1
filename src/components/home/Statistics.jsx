@@ -11,9 +11,14 @@ const Statistics = () => {
   const [ref, inView] = useInView({ threshold: 0.1 });
 
   return (
-    <div ref={ref} className="flex flex-col items-center w-full mt-20">
-      <h1 className="text-2xl font-bold text-center">Our Statistics</h1>
-      <p className="text-center p-4">
+    <div
+      ref={ref}
+      className="flex flex-col items-center md:items-stretch w-full md:mt-20 mb:10 md:mb-20"
+    >
+      <h1 className="hidden md:block text-2xl font-medium text-[#121212] md:text-[52px] text-center">
+        Our Statistics
+      </h1>
+      <p className="hidden md:block text-center p-4 mt-4 md:text-xl text-[#424242]">
         Don't take our words for it, view our numbers below
       </p>
       <div className=" bg-inherit  md:bg-secondary mt-8 ">
@@ -39,12 +44,12 @@ const NumberCard = ({ rating, text, inView }) => {
   const suffix = rating.replace(/[0-9]/g, ""); // Extract non-numeric part
 
   return (
-    <div className="flex flex-col   items-center px-2 py-14 text-center border-[1.5px] border-[#CC5500] rounded-[40px] md:rounded-2xl  w-[202px] md:w-full  ">
-      <h2 className="text-2xl font-bold">
+    <div className="flex flex-col  items-center px-2 py-16 text-center border-[1.5px] border-[#CC5500] rounded-[40px]   w-[282px] h-[256px] md:w-full  text-[#2F2F2F]">
+      <h2 className="text-[52px]  font-bold">
         {count}
         {suffix}
       </h2>
-      <p className="text-sm font-medium text-center max-w-[10rem] text-whiteText">
+      <p className="text-xl font-medium text-center max-w-[10rem] text-whiteText">
         {text}
       </p>
     </div>
