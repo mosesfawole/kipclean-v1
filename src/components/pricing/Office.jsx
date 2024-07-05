@@ -122,7 +122,7 @@ const Office = () => {
           <p className="font-light "> Total</p>
           <h1 className="text-lg font-bold text-black">N80,000</h1>
         </div>
-        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-base border-black rounded-lg w-full hover:bg-[#CC5500] hover:text-white transition-all duration-300">
+        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-sm md:text-base border-black rounded-lg w-full hover:bg-[#CC5500] hover:text-white transition-all duration-300">
           Get Estimate
         </button>
       </div>

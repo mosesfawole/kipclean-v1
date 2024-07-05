@@ -78,11 +78,13 @@ const Plumbing = () => {
         {/*  */}
         {/*  */}
         <div>
-          <h1 className="font-bold text-sm font-Inter ">Issue Description</h1>
+          <h1 className="md:font-bold text-sm font-normal ">
+            Issue Description
+          </h1>
           <div className=" mt-4 ">
             <textarea
               type="text"
-              className="border bg-transparent border-[#949291] rounded-lg font-medium text-sm  px-4 py-4 outline-none w-full  resize-none"
+              className="border overflow-hidden bg-transparent border-[#949291] rounded-lg font-medium text-sm  px-2 py-2  outline-none h-9 w-full  resize-none"
             ></textarea>
           </div>
         </div>
@@ -92,7 +94,7 @@ const Plumbing = () => {
           <p className="font-light "> Total</p>
           <h1 className="text-lg font-bold text-black">N80,000</h1>
         </div>
-        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-base border-black rounded-lg w-full hover:bg-[#CC5500] hover:text-white transition-all duration-300">
+        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-sm md:text-base border-black rounded-lg w-full hover:bg-[#CC5500] hover:text-white transition-all duration-300">
           Get Estimate
         </button>
       </div>
