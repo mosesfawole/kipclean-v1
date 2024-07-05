@@ -1,15 +1,4 @@
-import { useState } from "react";
-import { FaAngleDown } from "react-icons/fa6";
-import { FaAngleUp } from "react-icons/fa";
-import { FaChevronUp } from "react-icons/fa";
-
 const Plumbing = () => {
-  const [openDropdown, setOpenDropdown] = useState({
-    propertyType: false,
-    propertySize: false,
-    frequency: false,
-  });
-
   const serviceType = [
     { type: "Emergency" },
     { type: "Repairs" },
@@ -110,7 +99,7 @@ const Plumbing = () => {
           <p className="font-light "> Total</p>
           <h1 className="text-lg font-bold text-black">N80,000</h1>
         </div>
-        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-base border-black rounded-lg">
+        <button className="px-4 py-2 md:py-10 font-medium text-center text-black border-[1.5px] text-base border-black rounded-lg w-full hover:bg-[#CC5500] hover:text-white transition-all duration-300">
           Get Estimate
         </button>
       </div>

@@ -1,20 +1,4 @@
-import { useState } from "react";
-import { FaAngleDown } from "react-icons/fa6";
-import { FaAngleUp } from "react-icons/fa";
-import { FaChevronUp } from "react-icons/fa";
-
 const Office = () => {
-  const [openDropdown, setOpenDropdown] = useState({
-    propertyType: false,
-    propertySize: false,
-    frequency: false,
-  });
-  const toggleDropdown = (dropdown) => {
-    setOpenDropdown((prevState) => ({
-      ...prevState,
-      [dropdown]: !prevState[dropdown],
-    }));
-  };
   const propertyType = [
     { type: "Small office" },
     { type: "Medium office" },

@@ -1,15 +1,4 @@
-import { useState } from "react";
-import { FaAngleDown } from "react-icons/fa6";
-import { FaAngleUp } from "react-icons/fa";
-import { FaChevronUp } from "react-icons/fa";
-
 const Residential = () => {
-  const [openDropdown, setOpenDropdown] = useState({
-    propertyType: false,
-    propertySize: false,
-    frequency: false,
-  });
-
   const propertyType = [
     { type: "Studio/Self Con" },
     { type: "1 Bedroom flat" },
