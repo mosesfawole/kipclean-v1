@@ -5,9 +5,9 @@ const Newsletter = () => {
   return (
     <div className="flex flex-col items-center gap-8 p-8 text-white md:flex-row md: md:gap-16 md:px-16 ">
       <div className=" w-full md:w-[60%]">
-        <img src="/map.png" alt="" className="w-full " />
+        <img src="/map.svg" alt="map" className="w-full " />
       </div>
-      <div className=" relative bg-[#2f2f2f] p-8 px-12 flex flex-col gap-[10rem] rounded-xl w-full md:w-[30%]">
+      <div className=" relative bg-[#2f2f2f] p-8 px-12 flex flex-col gap-[10rem] rounded-xl w-full md:w-[30%] ">
         <div className="text-center ">
           <h1 className="pb-4 text-xl font-semibold ">Our Newsletter</h1>
           <h4>
@@ -42,7 +42,7 @@ const Newsletter = () => {
                 name=""
                 placeholder="Your email address"
                 className="rounded-sm px-2 py-1
-                outline-none "
+                outline-none text-black"
               />
               <button className="p-2 text-sm rounded-sm bg-ash">
                 SUBSCRIBE

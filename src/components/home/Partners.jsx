@@ -20,7 +20,7 @@ const Partners = () => {
       <div className="">
         <div
           className={
-            "logos-slide w-fit  md:mx-40  md:grid md:w-fit md:animate-none md:grid-cols-4  items-center md:gap-12"
+            "logos-slide w-fit  md:mx-auto  md:grid md:w-fit md:animate-none md:grid-cols-4  items-center md:gap-12"
           }
         >
           {images.map((src, index) => (

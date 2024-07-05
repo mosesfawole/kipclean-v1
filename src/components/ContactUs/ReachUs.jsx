@@ -5,9 +5,11 @@ import { RiTwitterXFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 const ReachUs = () => {
   return (
-    <div className="p-8 ">
-      <h1 className="text-center ">Other channels to reach us</h1>
-      <div className="flex flex-col gap-4 p-8 md:gap-16 md:flex-row bg-secondary">
+    <div className="p-8  ">
+      <h1 className="text-center md:text-3xl mb-10">
+        Other channels to reach us
+      </h1>
+      <div className="flex flex-col gap-4 p-8  md:gap-16 md:flex-row bg-secondary md:justify-evenly md:mx-auto md:w-[80%]">
         <Link
           to=""
           className="flex items-center gap-4 p-4 border-2 border-orange rounded-xl "

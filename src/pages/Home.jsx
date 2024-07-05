@@ -24,7 +24,7 @@ const Home = () => {
         <h1 className=" text-xl md:text-[52px] font-bold">
           Do you need any of our services?
         </h1>
-        <p className="mt-4 text-sm font-sans text-center md:text-xl px-12 text-[#424242]">
+        <p className="mt-4 text-sm font-sans text-center md:text-xl px-12 ">
           Kip-clean Cleaning and plumbing is your one-stop for all your
           household needs. From fixing a leaky faucet to cleaning your carpets,
           we've got you covered.
