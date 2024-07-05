@@ -14,13 +14,6 @@ const Plumbing = () => {
     { type: "Shower" },
   ];
 
-  const frequency = [
-    { type: "2x monthly (1 Deep + 1 Regular + Pack)" },
-    { type: "4x monthly (1 Deep + 3 Regular + Pack)" },
-    { type: "8x monthly (1 Deep + 7 Regular + Pack)" },
-    { type: "12x monthly (1 Deep + 11 Regular + Pack)" },
-  ];
-
   return (
     <div className="mt-4  transition-all duration-500 ">
       <h3 className="mb-4 text-start text-base font-medium md:text-xl md:text-start ">
