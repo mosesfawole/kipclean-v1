@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import { Route, Routes } from "react-router-dom";
+import ScrollToTop from "./scrollToTop";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
@@ -10,6 +11,7 @@ import Pricing from "./pages/Pricing";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
