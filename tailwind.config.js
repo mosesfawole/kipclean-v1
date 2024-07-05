@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         Neue: ["Neue Montreal", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
       colors: {
         orange: "#cc5500",

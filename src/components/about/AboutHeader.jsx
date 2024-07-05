@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutHeader = () => {
   const offers = [
     {
@@ -30,16 +32,18 @@ const AboutHeader = () => {
             <h1 className="text-xl  font-medium md:font-bold text-white md:text-[52px] ">
               Excellence is our standard
             </h1>
-            <p className=" text-xs font-medium text-center md:font-normal md:text-xl">
+            <p className=" text-xs font-medium font-sans text-center md:font-normal md:text-xl">
               Your go-to hub for all cleaning and plumbing needs.we're dedicated
               to keeping your home and business clean, safe, and running
               smoothly. With our expert cleaning and plumbing services, you can
               trust us to handle all your maintenance needs with professionalism
               and care.
             </p>
-            <button className="px-4 py-2 font- border-2 border-orange rounded-3xl">
-              Contact us now
-            </button>
+            <Link to={"/contact"}>
+              <button className="px-4 py-2 font- border-[1.5px] border-orange rounded-3xl hover:bg-orange ">
+                Contact us now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -52,7 +56,7 @@ const AboutHeader = () => {
             <h1 className="text-base font-medium md:font-bold md:text-4xl">
               {offer.heading}
             </h1>
-            <p className="text-xs md:font-normal md:text-xl">
+            <p className="text-xs font-sans md:font-normal md:text-xl">
               {offer.paragraph}
             </p>
           </div>
