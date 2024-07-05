@@ -47,7 +47,10 @@ body {
 
   font-family: "Neue Montreal", sans-serif;
 }
-
+input,
+textarea {
+  font-weight: 400;
+}
 .logo {
   position: relative;
 }

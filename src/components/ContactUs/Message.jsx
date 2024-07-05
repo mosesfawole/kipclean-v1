@@ -1,30 +1,30 @@
 const Message = () => {
   return (
     <>
-      <div className="w-full p-4 border rounded-lg border-orange">
+      <div className="w-full p-4 border-[1.5px] rounded-lg border-orange">
         <div className="text-center ">
-          <h1 className="pb-8 text-xl font-semibold">Kip Clean</h1>
+          <h1 className="mb-12 text-xl font-bold md:text-4xl">Kip Clean</h1>
         </div>
         {/* form */}
         <form action="" className="flex flex-col gap-4 ">
-          <p className="font-semibold ">Send us a message</p>
+          <p className="font-medium md:text-3xl mb-4 ">Send us a message</p>
           <input
             type="text"
             name="fullname"
             placeholder="Full Name"
-            className="w-full p-2 border rounded-lg border-orange"
+            className="outline-orange w-full p-2 border rounded-lg font-Inter font-normal border-orange md:border-[#C1C1C1]"
           />
           <input
             type="text"
             name="email"
             placeholder="Enter a valid email"
-            className="p-2 border rounded-lg border-orange"
+            className=" font-Inter  outline-orange p-2 border rounded-lg font-normal border-orange md:border-[#C1C1C1] "
           />
-          <input
+          <textarea
             type="text"
             name="message"
             placeholder="Type a message"
-            className="p-2 border rounded-lg border-orange h-[10rem] "
+            className="outline-orange p-2 border rounded-lg font-Inter  h-[10rem] border-orange md:border-[#C1C1C1] resize-none "
           />
           <button className="p-2 text-white rounded-lg bg-orange">Send</button>
         </form>
