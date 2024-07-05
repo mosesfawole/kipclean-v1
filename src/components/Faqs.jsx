@@ -7,14 +7,14 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 const Faqs = () => {
   const questions = [
     {
-      qstn: "How often should I schedule cleaning appointments?",
-      icon: <AiOutlinePlus />,
-      ans: "The frequency of cleaning appointments depends on your specific needs and preferences",
-    },
-    {
       qstn: "What cleaning services do you offer?",
       icon: <AiOutlinePlus />,
       ans: "We offer a wide range of cleaning services, including: Residential cleaning, Office Cleaning, Move-in Cleaning. Our services can be customized to meet your specific needs.",
+    },
+    {
+      qstn: "How often should I schedule cleaning appointments?",
+      icon: <AiOutlinePlus />,
+      ans: "The frequency of cleaning appointments depends on your specific needs and preferences",
     },
     {
       qstn: "Do I need to provide cleaning equipment?",
@@ -50,7 +50,7 @@ const Faqs = () => {
 
   return (
     <div>
-      <div className="mt-12 font-normal font-['Poppins'] text-base md:text-xl">
+      <div className="mt-12 font-normal font-[poppins]  text-base md:text-xl">
         {questions.map((question, index) => (
           <div key={index}>
             <div className="flex gap-12">

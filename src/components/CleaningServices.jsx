@@ -48,7 +48,7 @@ const CleaningServices = () => {
   return (
     <div className="flex flex-col items-center gap-8  sm:mt-[25rem] lg:mt-20">
       <div className="flex flex-col items-center mx-8 mt-16 text-center">
-        <h1 className="text-4xl md:text-[52px] font-semibold ">
+        <h1 className="text-[40px] leading-10  md:text-[52px] font-semibold ">
           Cleaning And Plumbing Services
         </h1>
         <p className="text-[#2F2F2F] text-sm md:text-xl text-center font-medium  mt-8 md:px-[20rem]">
@@ -76,13 +76,15 @@ const CleaningServices = () => {
             <p className="pt-4 text-xs  md:text-sm font-normal ">
               {service.details}
             </p>
-            <div className="flex items-center  mt-4">
-              <Link className="flex gap-2 " to="/Services">
-                <p className=" text-[#3799EF] ">Learn More </p>
+            <div className="mt-4">
+              <Link className="flex items-center gap-1 " to="/Services">
+                <p className=" text-[#3799EF] text-base font-medium ">
+                  Learn More{" "}
+                </p>
                 <img
                   src="/expand_circle_right.svg"
                   alt="circle-right"
-                  className=" "
+                  className=" w-fit"
                 />
               </Link>
             </div>

@@ -10,6 +10,11 @@
     transform: translateX(-50%);
   }
 }
+a:hover,
+.custom-link:hover {
+  color: hsl(25, 86%, 58%);
+}
+
 @font-face {
   font-family: "Neue Montreal";
   src: url("./fonts\Neue Montreal\NeueMontreal-Regular.otf");
@@ -37,7 +42,7 @@
 
 body {
   overflow-x: hidden !important;
-  font-family: "Neue Montreal", sans-serif;
+  font-family: "Neue Montreal", sans-serif !important;
 }
 
 .logo {

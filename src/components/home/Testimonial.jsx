@@ -63,13 +63,15 @@ const Testimonial = () => {
 
   return (
     <div className="relative flex flex-col items-center mt-20 md:mt-40">
-      <h1 className="text-4xl font-medium text-center">Testimonials</h1>
-      <p className="text-[16px] mt-2 md:hidden">
+      <h1 className="text-[44px] leading-48px md:text-6xl font-bold md:font-medium text-center">
+        Testimonials
+      </h1>
+      <p className="text-base font-sans text-[#595F66] mt-2 md:hidden">
         What our customers are saying
       </p>
       <div className="relative w-full mt-7 overflow-hidden px-8">
         <div
-          className="flex gap transition-transform duration-300  w-full md:w-[55rem] ease-in-out"
+          className="flex gap transition-transform duration-300  w-full md:w-[55rem] ease-in-out gap-2"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {testimonials.map((testimony, index) => (
@@ -87,11 +89,13 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className="w-full text-left  text-[#595F66] font-sans md:text-white">
-                <h1 className="text-sm sm:text-sm font-normal md:text-lg">
+                <h1 className="text-sm sm:text-sm font-sans font-normal  md:text-lg">
                   {testimony.message}
                 </h1>
-                <p className="pb-1 mt-2 md:mt-8 font-bold">{testimony.name}</p>
-                <p className=" ">{testimony.username}</p>
+                <p className="pb- mt-2 md:mt-8 font-bold text-xl">
+                  {testimony.name}
+                </p>
+                <p className=" text-xl font-medium">{testimony.username}</p>
               </div>
             </div>
           ))}
@@ -103,7 +107,7 @@ const Testimonial = () => {
           className="px-2 py-2 text-black border border-gray-500 rounded-full "
         >
           <IoIosArrowRoundBack
-            style={{ color: "gray-500", fontSize: "20px" }}
+            style={{ color: "gray-500", fontSize: "24px" }}
           />
         </button>
         <button
@@ -111,7 +115,7 @@ const Testimonial = () => {
           className="px-2  text-black border border-[#cc5500] rounded-full  py-2 "
         >
           <IoIosArrowRoundForward
-            style={{ color: "#cc5500", fontSize: "20px" }}
+            style={{ color: "#cc5500", fontSize: "24px" }}
           />
         </button>
       </div>

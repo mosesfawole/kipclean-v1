@@ -1,4 +1,5 @@
 // import Cleaning from "../components/Cleaning";
+import { Link } from "react-router-dom";
 import ChooseUs from "../components/ChooseUs";
 import CleaningServices from "../components/CleaningServices";
 import Header from "../components/Header";
@@ -23,16 +24,17 @@ const Home = () => {
         <h1 className=" text-xl md:text-[52px] font-bold">
           Do you need any of our services?
         </h1>
-        <p className="mt-7 text-sm text-center md:text-xl  font-['Poppins']">
+        <p className="mt-4 text-sm font-sans text-center md:text-xl px-12 text-[#424242]">
           Kip-clean Cleaning and plumbing is your one-stop for all your
-          household needs. <br />
-          From fixing a leaky faucet to cleaning your carpets, we've got you
-          covered.
+          household needs. From fixing a leaky faucet to cleaning your carpets,
+          we've got you covered.
         </p>
         <p className="text-lg font-medium"></p>
-        <button className="mt-8 border-[1.5px] border-[#CC5500]  rounded-full p-4 px-8 font-medium text-lg">
-          Book a service
-        </button>
+        <Link to={"/service"}>
+          <button className="mt-8 border-[1.5px] border-[#CC5500]  rounded-full p-4 px-8 font-medium text-sm md:text-lg hover:bg-[#CC5500] hover:text-white">
+            Book a service
+          </button>
+        </Link>
       </div>
 
       <div className="hidden md:flex flex-col">
