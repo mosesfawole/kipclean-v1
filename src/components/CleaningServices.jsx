@@ -80,7 +80,7 @@ const CleaningServices = () => {
             <h1 className="pt-4 text-xl md:text-2xl font-medium">
               {service.heading}
             </h1>
-            <p className="pt-4 text-xs md:text-sm font-normal">
+            <p className="pt-4 text-xs md:text-sm font-normal font-Inter">
               {service.details}
             </p>
             <div className="mt-4">

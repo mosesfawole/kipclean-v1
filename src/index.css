@@ -104,3 +104,12 @@ textarea {
     rgba(255, 192, 203, 0.274)
   );
 }
+select {
+  background-color: #949291;
+}
+
+select option {
+  background-color: #949291 !important;
+  background-size: cover;
+  color: white;
+}
