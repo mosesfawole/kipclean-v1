@@ -95,7 +95,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="block text-center ">
+      <div className="block md:text-center ">
         <hr className="mt-7 mb-4 " />
         <p>{currentYear} Copyright. All rights reserved to kip-Clean</p>
       </div>

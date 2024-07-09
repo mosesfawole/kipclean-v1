@@ -21,9 +21,9 @@ const Statistics = () => {
       <p className="hidden md:block text-center p-4 mt-4 md:text-xl text-[#424242]">
         Don't take our words for it, view our numbers below
       </p>
-      <div className=" bg-inherit  md:bg-secondary mt-8 ">
+      <div className=" bg-inherit p-10 md:bg-secondary mt-8 ">
         {" "}
-        <div className="grid  grid-cols-1 gap-10 px-[2.5rem] py-8 mx-auto md:px-[6rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  ">
+        <div className="flex  flex-wrap gap-10 mx-auto ">
           {stats.map((stat, index) => (
             <NumberCard
               key={index}
@@ -44,14 +44,12 @@ const NumberCard = ({ rating, text, inView }) => {
   const suffix = rating.replace(/[0-9]/g, ""); // Extract non-numeric part
 
   return (
-    <div className="flex flex-col  items-center px-2 py-16 text-center border-[1.5px] border-[#CC5500] rounded-[40px] w-full  md:w-full  text-[#2F2F2F]">
+    <div className="flex flex-col   md gap-10  items-center mx-auto  py-16 text-center border-[1.5px] border-[#CC5500] rounded-[40px] w-2/3 md:w-1/3 lg:w-1/5   text-[#2F2F2F]">
       <h2 className="text-[52px]  font-bold">
         {count}
         {suffix}
       </h2>
-      <p className="text-xl font-medium text-center max-w-[10rem] text-whiteText">
-        {text}
-      </p>
+      <p className="text-xl font-medium text-center  text-whiteText">{text}</p>
     </div>
   );
 };
