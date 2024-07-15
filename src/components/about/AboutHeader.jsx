@@ -19,7 +19,7 @@ const AboutHeader = () => {
       <div
         className="relative w-full h-[60vh] md:h-screen px-4 sm:px-8 text-white bg-center bg-no-repeat bg-cover "
         style={{
-          background: "url(/aboutbanner.png)",
+          background: "url(/image1.svg)",
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
@@ -40,7 +40,7 @@ const AboutHeader = () => {
               and care.
             </p>
             <Link to={"/contact"}>
-              <button className="px-4 py-2 font- border-[1.5px] border-orange rounded-3xl hover:bg-orange ">
+              <button className="px-4 py-2 font- border-[1.5px] border-orange rounded-3xl hover:bg-orange hover:text-white ">
                 Contact us now
               </button>
             </Link>
