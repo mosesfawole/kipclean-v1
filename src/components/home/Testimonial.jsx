@@ -6,42 +6,42 @@ const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const testimonials = [
     {
-      image: "/banner.jpg",
+      image: "/image 3.svg",
       message:
         "My experience with Kip Clean water heater service was nothing short of exceptional. From the professionalism of the team to the quality of the workmanship, every aspect exceeded my expectations. I wouldn't hesitate to recommend kip clean to anyone in need of water heater services. Thank you for your outstanding service!",
       name: "Mr Bode",
       username: "@bode",
     },
     {
-      image: "/banner.jpg",
+      image: "/image 5.svg",
       message:
         "My experience with kip clean was fantastic! Their cleaning services were thorough and efficient. The team was friendly and went above and beyond to ensure my satisfaction. I highly recommend them!",
       name: "Mrs sarah",
       username: "@sarah_lee",
     },
     {
-      image: "/banner.jpg",
+      image: "/image 4.svg",
       message:
         "I was so impressed with kip clean's deep cleaning service. They tackled every nook and cranny, leaving my home sparkling clean. They were professional, reliable, and very affordable. I'll definitely be using them again!",
       name: "Akin",
       username: "@Akin007",
     },
     {
-      image: "/banner.jpg",
+      image: "/image 2.svg",
       message:
         "Since hiring kip clean for our office cleaning, our workspace has been consistently clean and organized. Their team is dependable and discreet, allowing us to focus on our work. We're very happy with their services!",
       name: "King",
       username: "@King_jay",
     },
     // {
-    //   image: "/banner.jpg",
+    //   image: "/image 3.svg",
     //   message:
     //     "kip clean is the best plumbing service I've ever used. Their technicians were prompt, courteous, and very knowledgeable. They fixed my leaky faucet quickly and efficiently. I highly recommend them for all your plumbing needs!",
     //   name: "David",
     //   username: "@davidmiller123",
     // },
     // {
-    //   image: "/banner.jpg",
+    //   image: "/image 3.svg",
     //   message:
     //     "Kip clean has been cleaning our home for years now, and we've always been satisfied. They are reliable, trustworthy, and do a fantastic job every time. They take the stress out of keeping our home clean, allowing us to spend more time with our family. We highly recommend them!",
     //   name: "Jane Doe",

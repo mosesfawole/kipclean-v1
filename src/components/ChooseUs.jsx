@@ -6,7 +6,7 @@ const ChooseUs = () => {
           <h1 className="text-xl mb-2 sm:text-2xl md:text-[52px] font-bold text-center">
             Why Choose Us?
           </h1>
-          <p className="pt-4 font-normal text-xs sm:leading-5  text-[#2F2F2F] md:text-lg sm:text-xs sm:px-14 md:mt-6 text-center mx-auto md:px-80">
+          <p className="pt-4 font-normal   text-xs sm:leading-5  text-[#2F2F2F] md:text-lg sm:text-xs sm:px-14 md:mt-6 text-center mx-auto md:px-80">
             Kip-Clean Cleaning and Plumbing Service has established itself as a
             beacon of reliability and excellence in the industry. Through a
             commitment to unparalleled service and customer satisfaction,
@@ -30,7 +30,7 @@ const ChooseUs = () => {
                 <p className="text-xl font-bold sm:text-xl md:text-4xl ">
                   Same Day Availability
                 </p>
-                <p className=" text-sm sm:text-sm md:text-xl">
+                <p className=" text-sm font-Inter  sm:text-sm md:text-xl">
                   Emergency Service needed? We provide immediate booking
                   confirmation for your cleaning service with us.
                 </p>
@@ -53,7 +53,7 @@ const ChooseUs = () => {
                 <p className="text-xl font-bold sm:text-xl md:text-4xl">
                   Quick Response
                 </p>
-                <p className="font-normal text-sm sm:text-sm md:text-xl pr-28 md:pr-0">
+                <p className="font-normal font-Inter text-sm sm:text-sm md:text-xl pr-28 md:pr-0">
                   For Emergency cleaning and plumbing services, you can count on
                   us to respond swiftly and get the job done right.
                 </p>
@@ -76,7 +76,7 @@ const ChooseUs = () => {
                 <h2 className="text-xl font-bold  sm:text-xl md:text-4xl ">
                   Great Feedback
                 </h2>
-                <p className="  text-sm sm:text-sm md:text-xl pr-28 md:pr-0">
+                <p className="  text-sm font-Inter  sm:text-sm md:text-xl pr-28 md:pr-0">
                   We have a great customer return rate and most would recommend
                   us to a friend or family member.
                 </p>

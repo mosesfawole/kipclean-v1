@@ -58,7 +58,7 @@ textarea {
 .logos-slide {
   display: flex;
   gap: 1rem;
-  width: 200%; /* Adjust to make sure the width is twice the width of one set of images */
+  width: max-content; /* Adjust to make sure the width is twice the width of one set of images */
   animation: slide 10s linear infinite;
 }
 
