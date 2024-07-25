@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import "./Header.css"; // Add your CSS animation styles here
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const slides = [
@@ -40,13 +41,13 @@ const Header = () => {
   return (
     <div className="relative">
       {/* Background Image */}
-      <div className="absolute inset-0 w-full h-full">
-        <img
-          src={slides[currentIndex].img}
-          alt="Background Slide"
-          className="w-full h-full object-cover"
-          loading="lazy"
-        />
+      <div
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover sm:block"
+        style={{
+          backgroundImage: `url(${slides[currentIndex].img})`,
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
 
@@ -68,9 +69,12 @@ const Header = () => {
             household needs. From fixing a leaky faucet to cleaning your
             carpets, we've got you covered.
           </p>
-          <button className="mt-8 bg-[#CC5500] text-white font-medium px-8 py-3 rounded-3xl">
+          <Link
+            to={"/services"}
+            className="mt-8 bg-[#CC5500] text-white font-medium px-8 py-3 rounded-3xl bg-opacity-100 hover:text-white hover:bg-opacity-75"
+          >
             Request a service
-          </button>
+          </Link>
           <div className="absolute -bottom-[3rem] flex items-center justify-center h-10 mt-24 w-fit">
             {slides.map((slide, index) => (
               <div

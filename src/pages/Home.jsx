@@ -30,7 +30,7 @@ const Home = () => {
           we've got you covered.
         </p>
         <p className="text-lg font-medium"></p>
-        <Link to={"/service"}>
+        <Link to={"/services"}>
           <button className="mt-8 border-[1.5px] border-[#CC5500]  rounded-full p-4 px-8 font-medium text-sm md:text-lg hover:bg-[#CC5500] hover:text-white">
             Book a service
           </button>
